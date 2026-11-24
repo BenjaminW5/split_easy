@@ -1,0 +1,7 @@
+CREATE TABLE bill_sessions (
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    title VARCHAR(120) NOT NULL,
+    request_data JSONB NOT NULL,
+    result_data JSONB NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);

@@ -1,0 +1,25 @@
+[project]
+name = "comp9820-backend"
+version = "0.1.0"
+requires-python = "==3.12.*"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.flake8-bugbear]
+# FastAPI's Depends()/Header()/Query() are meant to be called in argument
+# defaults -- that is how FastAPI recognises a dependency. Without this,
+# ruff's B008 rule (no function calls in defaults) flags every route.
+extend-immutable-calls = ["fastapi.Depends", "fastapi.Header", "fastapi.Query"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.coverage.run]
+source = ["app"]
