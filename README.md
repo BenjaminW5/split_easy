@@ -1,8 +1,19 @@
-# SplitEase
+<div align="center">
+
+![SplitEase](docs/images/banner.svg)
 
 **Split the bill. Keep the memory.**
 
-English | [简体中文](README.zh-CN.md)
+[English](README.md) · [简体中文](README.zh-CN.md)
+
+![React](https://img.shields.io/badge/React-Interface-61DAFB?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-Local_Data-0F80CC?style=flat-square)
+![Windows](https://img.shields.io/badge/Windows-Portable-0078D4?style=flat-square)
+
+</div>
+
+---
 
 SplitEase helps you share a restaurant bill: enter receipt items, choose who shares each dish, and add tips or service charges to calculate what everyone owes. Saved bills become a Memory Book, with optional photos and notes.
 

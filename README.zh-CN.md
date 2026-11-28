@@ -1,8 +1,19 @@
-# SplitEase
+<div align="center">
 
-**一张账单，清楚分摊，留下聚餐回忆。**
+![SplitEase](docs/images/banner.svg)
 
-[English](README.md) | 简体中文
+**Split the bill. Keep the memory.**
+
+[English](README.md) · [简体中文](README.zh-CN.md)
+
+![React](https://img.shields.io/badge/React-Interface-61DAFB?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-Local_Data-0F80CC?style=flat-square)
+![Windows](https://img.shields.io/badge/Windows-Portable-0078D4?style=flat-square)
+
+</div>
+
+---
 
 SplitEase 是一个聚餐分账工具：录入菜品、选择参与者、设置小费与服务费，即可计算每个人应付的金额。保存后的账单以 Memory Book 的形式展示，还可以添加照片和备注。
 

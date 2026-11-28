@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="400" viewBox="0 0 1440 400">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#153b32"/><stop offset="1" stop-color="#276758"/></linearGradient></defs>
+<rect width="1440" height="400" rx="24" fill="url(#bg)"/>
+<g fill="none" stroke="#ffad8e" opacity=".13"><circle cx="1200" cy="200" r="260"/><circle cx="1200" cy="200" r="195"/><circle cx="1200" cy="200" r="130"/><path d="M900 0v400M1000 0v400M1100 0v400M1200 0v400M1300 0v400M1400 0v400M850 100h590M850 200h590M850 300h590"/></g>
+<g font-family="Arial,Microsoft YaHei,sans-serif"><text x="76" y="80" font-size="16" font-weight="700" letter-spacing="4" fill="#ffad8e">SHARED MEALS · SIMPLE SETTLEMENTS</text>
+<text x="72" y="185" font-size="84" font-weight="700" fill="white">SplitEase</text>
+<text x="78" y="240" font-size="27" fill="#deeced">Split the bill. Keep the memory.</text><rect x="76" y="293" width="137.60000000000002" height="40" rx="20" fill="white" opacity=".10"/><text x="95" y="319" font-size="15" fill="#f1f7fc">ITEM SHARING</text><rect x="227.60000000000002" y="293" width="145.9" height="40" rx="20" fill="white" opacity=".10"/><text x="246.60000000000002" y="319" font-size="15" fill="#f1f7fc">LOCAL STORAGE</text><rect x="387.5" y="293" width="129.3" height="40" rx="20" fill="white" opacity=".10"/><text x="406.5" y="319" font-size="15" fill="#f1f7fc">MEMORY BOOK</text></g>
+<g transform="translate(1070 90)" fill="none" stroke="#ffad8e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M38 15h128v180l-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12zM67 52h70M67 82h70M67 112h30M123 105v40M103 125h40"/></g></svg>
