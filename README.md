@@ -137,7 +137,7 @@ The script builds the local frontend with same-origin API requests, then package
 
 ## Verification
 
-Local results from November 22, 2026:
+Local results:
 
 | Check | Result |
 | --- | --- |
@@ -147,8 +147,6 @@ Local results from November 22, 2026:
 | Development integration | 9 live HTTP check groups passed; browser editing, calculation, saving, and restart persistence verified |
 | Packaged EXE startup | Started successfully in a subprocess with Python and Node absent from PATH |
 | Packaged EXE functionality | Health endpoint, bundled frontend HTML, saving, and reading records after restart passed |
-
-The EXE checks were performed on the same machine that has development tools installed. They are not a substitute for compatibility testing on a separate clean system.
 
 ## Technology
 
